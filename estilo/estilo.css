@@ -91,10 +91,7 @@ p{
 
 }
 
-conteudo {
 
-    margin-bottom: 30px;
-}
 .conteudo-escrito{
     display:flex;
     flex-direction: column;
@@ -141,15 +138,61 @@ padding: 10px;
 text-align: center;
 }
 
+
+ul{
+    list-style-type: none;
+}
 h2{
     
     font-family: 'DynaPuff', cursive; 
+    text-align: center;
+}
+.fotoautor{
+border: 5px solid black;
+box-shadow: 10px 10px;
+
 }
 
+
+.albumautor{
+  
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.autores{
+
+    width: 300px;
+}
 
 img{
     margin: 10px;
     
+}
+
+button{
+
+    border:1px solid wheat;
+    padding: 1px;
+  
+    color:white;
+    background-color: brown;
+    text-align: center;
+    box-shadow: 5px 5px black ;
+    border-radius: 5px;
+    width: 160px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+#linklivro{
+
+    width: 300px;
 }
 
 form{
